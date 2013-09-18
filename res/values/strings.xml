@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SugerExplorer</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_my_explorer">MyExplorer</string>
+
+    <string name="sdcard_asked"> U can mount sdcard </string>
+    
+    
+    <!-- option menu -->
+    <string name="refresh">Refresh</string>
+    <string name="preferences">Preferences</string>
+    <string name="home">Home</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+
+    <!-- context menu -->
+    <string name="open_with">Open with</string>
+    <string name="delete">Delete</string>
+    <string name="rename">Rename</string>
+    <string name="copy">Copy</string>
+    <string name="move">Move</string>
+    <string name="permission">Permission</string>
+    <string name="properties">Properities</string>
+    <string name="add_bookmarks">Add Bookmarks</string>
+    <string name="send">Send</string>
+    <string name="view_as_text">View as Text</string>
+    <string name="open_in_text_editor">Open in Text Editor</string>
+    <string name="zip_this_file">Zip this File</string>
+    <string name="create_tar">Create tar</string>
+	<string name="change_owner">Change Owner</string>	
+	<string name="create_shotcut">Create Shotcut</string>
+    <string name="link_to_this_file">Link To This File</string>
+	
+</resources>

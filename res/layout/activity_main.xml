@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/topLl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:contentDescription="icon"
+            android:scaleX="0.6"
+            android:scaleY="0.6"
+            android:src="@drawable/file_manager_r" />
+
+        <TextView
+            android:id="@+id/pathTv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/fileLv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topLl"
+        android:clickable="true"
+        android:focusable="true"
+        android:scrollbarStyle="outsideInset" />
+    <!-- android:onClick="onItemClick -->
+
+
+    <!--
+    android:paddingRight="@dimen/activity_horizontal_margin"
+     	android:paddingTop="@dimen/activity_vertical_margin"
+		    android:paddingLeft=""
+	        android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    -->
+
+    <TextView
+        android:id="@+id/sdcard_asked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/sdcard_asked"
+        android:textSize="30sp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

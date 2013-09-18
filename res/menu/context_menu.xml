@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   
+     <item
+        android:id="@+id/menu_open_with"
+        android:orderInCategory="10"
+        android:title="@string/open_with"/>
+    <item
+        android:id="@+id/menu_delete"
+        android:orderInCategory="10"
+        android:title="@string/delete"/>
+    <item
+        android:id="@+id/menu_rename"
+        android:orderInCategory="10"
+        android:title="@string/rename"/>
+    <item
+        android:id="@+id/menu_copy"
+        android:orderInCategory="10"
+        android:title="@string/copy"/>
+    <item
+        android:id="@+id/menu_move"
+        android:orderInCategory="10"
+        android:title="@string/move"/>
+   
+    <item
+        android:id="@+id/menu_permission"
+        android:orderInCategory="10"
+        android:title="@string/permission"/>
+    <item
+        android:id="@+id/menu_properties"
+        android:orderInCategory="10"
+        android:title="@string/properties"/>
+    <item
+        android:id="@+id/menu_add_bookmarks"
+        android:orderInCategory="10"
+        android:title="@string/add_bookmarks"/>
+    <item
+        android:id="@+id/menu_send"
+        android:orderInCategory="10"
+        android:title="@string/send"/>
+    <item
+        android:id="@+id/menu_view_as_text"
+        android:orderInCategory="10"
+        android:title="@string/view_as_text"/>
+    <item
+        android:id="@+id/menu_open_in_text_editor"
+        android:orderInCategory="10"
+        android:title="@string/open_in_text_editor"/>
+    <item
+        android:id="@+id/menu_zip_this_file"
+        android:orderInCategory="10"
+        android:title="@string/zip_this_file"/>
+    <item
+        android:id="@+id/menu_open_create_tar"
+        android:orderInCategory="10"
+        android:title="@string/create_tar"/>
+    <item
+        android:id="@+id/menu_open_change_owner"
+        android:orderInCategory="10"
+        android:title="@string/change_owner"/>
+    <item
+        android:id="@+id/menu_create_shotcut"
+        android:orderInCategory="10"
+        android:title="@string/create_shotcut"/>
+    <item
+        android:id="@+id/menu_link_to_this_file"
+        android:orderInCategory="10"
+        android:title="@string/link_to_this_file"/>
+
+</menu>

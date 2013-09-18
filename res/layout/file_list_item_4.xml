@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:id="@+id/list_container"
+    >
+    
+
+    <ImageView
+        android:id="@+id/fileIconIv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/default2" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/fileNameTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="abc"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/fileAttrTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="abc" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/fileCb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:focusable="false" 
+            android:scaleX="0.7" 
+            android:scaleY="0.7"
+            
+            />
+        <!--  scale 大小 0.6 即x 方向是原来的0.6 -->
+        
+         <!-- 取消 checkbox 的焦点，否则整个条目无法选中，焦点被checkbox 抢占 -->
+	<!-- 怎樣刪除 github 上的 simple_list_item_3.xml文件？ -->
+    </LinearLayout>
+
+</LinearLayout>
